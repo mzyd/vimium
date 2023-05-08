@@ -283,40 +283,27 @@ const Commands = {
 
 const defaultKeyMappings = {
   // Navigating the current page
-  // "j": "scrollDown",
-  // "k": "scrollUp",
-  // "h": "scrollLeft",
-  // "l": "scrollRight",
-
-  "t": "scrollDown",
-  "c": "scrollUp",
-
+  "j": "scrollDown",
+  "k": "scrollUp",
+  "h": "scrollLeft",
+  "l": "scrollRight",
   "gg": "scrollToTop",
   "G": "scrollToBottom",
   "zH": "scrollToLeft",
   "zL": "scrollToRight",
   "<c-e>": "scrollDown",
   "<c-y>": "scrollUp",
-  // "d": "scrollPageDown",
-  // "u": "scrollPageUp",
-
-  "n": "scrollPageDown",
-  "h": "scrollPageUp",
-  
+  "d": "scrollPageDown",
+  "u": "scrollPageUp",
   "r": "reload",
-  "p": "reload",
-
   "yy": "copyCurrentUrl",
-
-   // "p": "openCopiedUrlInCurrentTab",
-   // "P": "openCopiedUrlInNewTab",
-  "j": "openCopiedUrlInNewTab",
-
+  "p": "openCopiedUrlInCurrentTab",
+  "P": "openCopiedUrlInNewTab",
   "gi": "focusInput",
   "[[": "goPrevious",
   "]]": "goNext",
-  // "gf": "nextFrame",
-  // "gF": "mainFrame",
+  "gf": "nextFrame",
+  "gF": "mainFrame",
   "gu": "goUp",
   "gU": "goToRoot",
   "i": "enterInsertMode",
@@ -324,20 +311,15 @@ const defaultKeyMappings = {
   "V": "enterVisualLineMode",
 
   // Link hints
-  // "f": "LinkHints.activateMode",
-  // "F": "LinkHints.activateModeToOpenInNewTab",
-  // "<a-f>": "LinkHints.activateModeWithQueue",
-  // "yf": "LinkHints.activateModeToCopyLinkUrl",
+  "f": "LinkHints.activateMode",
+  "F": "LinkHints.activateModeToOpenInNewTab",
+  "<a-f>": "LinkHints.activateModeWithQueue",
+  "yf": "LinkHints.activateModeToCopyLinkUrl",
 
-    "u": "LinkHints.activateMode",
-    "U": "LinkHints.activateModeToOpenInNewTab",
-    "<a-u>": "LinkHints.activateModeWithQueue",
-    "yu": "LinkHints.activateModeToCopyLinkUrl",
-    
   // Using find
   "/": "enterFindMode",
-  // "n": "performFind",
-  // "N": "performBackwardsFind",
+  "n": "performFind",
+  "N": "performBackwardsFind",
 
   // Vomnibar
   "o": "Vomnibar.activate",
@@ -350,28 +332,20 @@ const defaultKeyMappings = {
 
   // Navigating history
   "H": "goBack",
-  "N": "goForward",
+  "L": "goForward",
 
   // Manipulating tabs
-  // "K": "nextTab",
-  // "J": "previousTab",
-
-  "l": "nextTab",
-  "f": "previousTab",
-
+  "K": "nextTab",
+  "J": "previousTab",
   "gt": "nextTab",
   "gT": "previousTab",
   "^": "visitPreviousTab",
-  // "<<": "moveTabLeft",
-  // ">>": "moveTabRight",
-  ",,": "moveTabLeft",
-  "..": "moveTabRight",
-
+  "<<": "moveTabLeft",
+  ">>": "moveTabRight",
   "g0": "firstTab",
   "g$": "lastTab",
   "W": "moveTabToNewWindow",
-  // "t": "createTab",
-  "k": "createTab",
+  "t": "createTab",
   "yt": "duplicateTab",
   "x": "removeTab",
   "X": "restoreTab",
