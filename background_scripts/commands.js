@@ -302,7 +302,7 @@ const defaultKeyMappings = {
 
   "n": "scrollPageDown",
   "h": "scrollPageUp",
-  
+
   "r": "reload",
   "p": "reload",
 
@@ -333,7 +333,7 @@ const defaultKeyMappings = {
     "U": "LinkHints.activateModeToOpenInNewTab",
     "<a-u>": "LinkHints.activateModeWithQueue",
     "yu": "LinkHints.activateModeToCopyLinkUrl",
-    
+
   // Using find
   "/": "enterFindMode",
   // "n": "performFind",
@@ -342,7 +342,8 @@ const defaultKeyMappings = {
   // Vomnibar
   "o": "Vomnibar.activate",
   "O": "Vomnibar.activateInNewTab",
-  "T": "Vomnibar.activateTabSelection",
+  // "T": "Vomnibar.activateTabSelection",
+  "a": "Vomnibar.activateTabSelection",
   "b": "Vomnibar.activateBookmarks",
   "B": "Vomnibar.activateBookmarksInNewTab",
   "ge": "Vomnibar.activateEditUrl",
@@ -367,8 +368,8 @@ const defaultKeyMappings = {
   ",,": "moveTabLeft",
   "..": "moveTabRight",
 
-  "g0": "firstTab",
-  "g$": "lastTab",
+  "gf": "firstTab",
+  "gl": "lastTab",
   "W": "moveTabToNewWindow",
   // "t": "createTab",
   "k": "createTab",
